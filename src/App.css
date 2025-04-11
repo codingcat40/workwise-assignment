@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#root {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-container {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #333;
+  padding-top: 20px;
+  margin-top: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Debug styles */
+.debug {
+  border: 1px solid red;
+} 
